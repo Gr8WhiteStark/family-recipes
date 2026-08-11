@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sugar Cookies | Family Recipes</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<main>
+
+    <a href="../index.html">← All Recipes</a>
+
+    <section class="recipe-page">
+
+        <h1>Sugar Cookies</h1>
+
+        <p>
+            <strong>From:</strong> Great-Grandma Link
+        </p>
+
+        <div class="recipe-info">
+
+            <span>
+                <strong>Prep:</strong> 10 mins
+            </span>
+
+            <span>
+                <strong>Cook:</strong> 6-10 minutes per batch
+            </span>
+
+            <span>
+                <strong>Makes:</strong> TBD
+            </span>
+
+        </div>
+
+        <!-- Add or remove tags as needed -->
+        <div class="tags">
+            <span>Cookies</span>
+            <span>Christmas</span>
+            <span>Dessert</span>
+            <span>Baking</span>
+        </div>
+
+        <h2>Ingredients</h2>
+
+        <!-- Copy or delete ingredient blocks as needed -->
+        <ul class="ingredients">
+
+            <li>
+                <label>
+                    <input type="checkbox">
+                    2 sticks room-temperature butter
+                </label>
+            </li>
+
+            <li>
+                <label>
+                    <input type="checkbox">
+                    1 1/2 cups sugar
+                </label>
+            </li>
+
+            <li>
+                <label>
+                    <input type="checkbox">
+                    2 lightly-beaten eggs
+                </label>
+            </li>
+
+            <li>
+                <label>
+                    <input type="checkbox">
+                    1 1/2 tsp vanilla extract
+                </label>
+            </li>
+
+            <li>
+                <label>
+                    <input type="checkbox">
+                    3 1/2 cups Cup4Cup all-purpose flour
+                </label>
+            </li>
+            
+             <li>
+                <label>
+                    <input type="checkbox">
+                    2 tsp baking powder
+                </label>
+            </li>
+
+             <li>
+                <label>
+                    <input type="checkbox">
+                    1/4 tsp salt (optional)
+                </label>
+            </li>
+
+        </ul>
+
+        <h2>Directions</h2>
+
+        <!-- Add or remove steps as needed -->
+        <ol class="directions">
+            <li>Preheat oven to 400°</li>
+            <li>Cream together butter, sugar, eggs, and vanilla extract</li>
+            <li>Sift together in a separate bowl: flour, salt, and baking powder</li>
+            <li>Combine wet and dry ingredients</li>
+            <li>Roll out on lightly floured counter or baking sheet and cut into shapes</li>
+            <li>Bake 6-10 minutes until golden</li>
+        </ol>
+
+        <h2>Notes</h2>
+
+        <p>
+            Fiddle with oven temperature as necessary
+        </p>
+
+        <button onclick="window.print()">
+            Print Recipe
+        </button>
+
+    </section>
+
+</main>
+
+</body>
+
+</html>
