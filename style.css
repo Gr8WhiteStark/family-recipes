@@ -49,3 +49,33 @@ p {
   margin-top: 0;
 }
   
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.tag-button {
+    margin: 0;
+    padding: 7px 13px;
+    background: #eee7df;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.tag-button:hover {
+    background: #ded5ca;
+}
+
+.tag-button.active {
+    background: #2f2a26;
+    color: white;
+}
+
+.recipe-from {
+    color: #6c625a;
+    font-size: 0.9rem;
+}
