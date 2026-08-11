@@ -1,9 +1,3 @@
 [
-  {
-    "title": "Sugar Cookies",
-    "url": "recipes/sugar-cookies.html",
-    "from": "Grandma",
-    "tags": ["Cookies","Dessert","Christmas","Baking"]
-    "favorite": true
-  }
+  "recipes/sugar-cookies.html"
 ]
