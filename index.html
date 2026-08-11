@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Family Recipes</title>
-  <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Family Recipes</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-  <main>
+
+<main>
 
     <section class="hero">
-      <h1>Family Recipes</h1>
-      <p>A collection of our favorite recipes.</p>
 
-      <input
-        class="search-box"
-        type="text"
-        placeholder="Search Recipes..."
+        <h1>Family Recipes</h1>
+
+        <p>A collection of the recipes we actually use.</p>
+
+        <input
+            id="search-box"
+            class="search-box"
+            type="text"
+            placeholder="Search recipes, people, or tags..."
         >
+
     </section>
 
-    <section class="recipe-grid">
 
-      <div class="recipe-card">
-        <h2>Grandma's Sugar Cookies</h2>
-        <p>Cookies - Christmas - Baked - Baking</p>
-      </div>
+    <section>
 
-      <div class="recipe-card">
-        <h2>Dad's Fluffy Waffles</h2>
-        <p>Breakfast - Waffles - Dad</p>
-      </div>
+        <div
+            id="tag-container"
+            class="tag-container">
+        </div>
 
-      <div class="recipe-card">
-        <h2>Mom's Peanut Butter Muffins</h2>
-        <p>Breakfast - Snacks - Muffins - Baking</p>
-      </div>
-      
     </section>
-    
-  </main>
-  
+
+
+    <section
+        id="recipe-grid"
+        class="recipe-grid">
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
 </html>
